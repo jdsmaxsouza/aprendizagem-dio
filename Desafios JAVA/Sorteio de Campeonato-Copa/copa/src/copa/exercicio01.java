@@ -4,17 +4,16 @@ import java.util.Scanner;
 
 public class exercicio01 {
 	public static void main(String[] args) {
-		int k = 0;
-		int l = 0;
-		String resultado = null;
 		
 		Scanner leitor = new Scanner(System.in);
 		
 		System.out.print("Informe o posição dos Mestres Kung e Lu: ");
   		System.out.print("\nKung está na: ");
-  		k = leitor.nextInt();
+  		int k = leitor.nextInt();
   		System.out.print("Lu está na: ");
-  		l = leitor.nextInt();
+  		int l = leitor.nextInt();
+  		
+  		String resultado = null;
   		
   		if ((l-1) / 2 == (k-1) / 2) {
     		resultado = "nas oitavas de finais";
